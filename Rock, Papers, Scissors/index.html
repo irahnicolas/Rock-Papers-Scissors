@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+
+<div id = "container">
+    <!--title-->
+    <h1>Rock, Paper, Scissors</h1>
+
+    <!--game scores-->
+    <div id="score">
+    <div id="computerScore">PLAYER: 0</div>
+    <div id="playerScore">COMPUTER: 0</div>
+    </div>
+
+    <!--choices - rock, paper, scissors with buttons & images-->
+    <div id="choices">
+        <div id="rock-background">
+            <button id="rock"></button>
+            <img src="rock.png" alt="rock">
+        </div>
+
+        <div id="paper-background">
+            <button id="paper"></button>
+            <img src="paper.png" alt="paper">
+        </div>
+
+        <div id="scissors-background">
+            <button id="scissors"></button>
+            <img src="scissors.png" alt="scissors">
+        </div>
+    </div>
+
+    <!--game results / score counter-->
+    <div id="gameResults">
+        <div id="playerResult">Player: </div>
+        <div id="computerResult">Computer: </div>
+        <div id="results"></div>
+    </div>
+
+    <!-- restart game / resets scoreboard-->
+    <div id="resetButton">
+    <button id="reset">Start a new game</div>
+    </div>
+    <script src = "script.js"></script>
+</div>
+</body>
+
+</html>
